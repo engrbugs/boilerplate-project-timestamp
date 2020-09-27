@@ -20,7 +20,7 @@ app.get("/*", function (req, res) {
 });
 
 app.get("/api/timestamp/", (req, res) => {
-  // let date = new Date();
+  let date = new Date();
   res.json({
     hello: 'world'
     // unix: date.getTime(),
