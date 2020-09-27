@@ -1,7 +1,7 @@
 
 # API Project: Timestamp Microservice for FCC
 
-## See this in action: [https://engrbugs.github.io/react-app-calculator/](https://engrbugs.github.io/react-app-calculator/)
+## See this in action: [https://timestampmicroservice-engrbugs.herokuapp.com/](https://timestampmicroservice-engrbugs.herokuapp.com/)
 <br>
 
 ### User stories:
