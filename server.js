@@ -28,15 +28,13 @@ app.get("/api/timestamp/", function (req, res) {
     });
 });
 
-
 // your first API endpoint... 
 app.get("/api/timestamp/:date_str", function (req, res) {
-  const { date_str } = req.params;
-  console.log('DATA:', date_str);
-  var date = new Date(date_str);
+  console.log('DATA:', req.params.date_str);
+  var date = new Date(req.params.date_str);
   console.log('date:', date);
   if (date.toString() === 'Invalid Date') {
-    date = new Date(parseInt(date_str));
+    date = new Date(parseInt(req.params.date_str));
   };
   console.log('date:', date); 
   if (date.toString() === 'Invalid Date') {
