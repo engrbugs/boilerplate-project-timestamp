@@ -4,8 +4,8 @@
 	"description": "An FCC Backend Challenge",
 	"main": "server.js",
 	"scripts": {
-		"prepublish": "npm install",
-		"start": "node server.js"
+		
+		"start": "npm install"
 	},
 	"dependencies": {
 		"express": "^4.12.4",
